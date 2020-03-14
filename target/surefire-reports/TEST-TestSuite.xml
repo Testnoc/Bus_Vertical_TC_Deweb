@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="38.127" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="53.147" tests="5" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\nocengineer\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4530304696813082972.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\nocengineer\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4720313755075690657.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_241/bin/server;C:/Program Files/Java/jre1.8.0_241/bin;C:/Program Files/Java/jre1.8.0_241/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\CheckPoint\Endpoint Security\Endpoint Common\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\nodejs\;C:\Users\nocengineer\AppData\Local\Microsoft\WindowsApps;C:\Users\nocengineer\AppData\Roaming\npm;C:\Users\nocengineer\AppData\Local\Programs\Git\cmd;C:\Users\nocengineer\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,9 +61,43 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="icon" classname="ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical" time="2.847"/>
-  <testcase name="Bus_hompage" classname="ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical" time="2.667"/>
-  <testcase name="bus_details_page" classname="ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical" time="5.924"/>
-  <testcase name="Bus_Review_page" classname="ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical" time="1.764"/>
-  <testcase name="Bus_payment_page" classname="ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical" time="5.873"/>
+  <testcase name="icon" classname="ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical" time="5.813"/>
+  <testcase name="Bus_hompage" classname="ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical" time="3.943"/>
+  <testcase name="bus_details_page" classname="ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical" time="15.009">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical.bus_details_page(Goibibo_Bus_Vertical.java:77)
+</failure>
+  </testcase>
+  <testcase name="Bus_Review_page" classname="ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical" time="0.348">
+    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=80.0.3987.87)&#10;  (Driver info: chromedriver=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4 milliseconds&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;GI-DT-NOC11&apos;, ip: &apos;172.16.24.67&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58508}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\nocengineer\AppData\Local\Temp\scoped_dir55180_691384400}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.87, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 9687c958214e408e8ef0a09f38062a64&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;adultchoose1&quot;]/option[2]}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.87)
+  (Driver info: chromedriver=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'GI-DT-NOC11', ip: '172.16.24.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58508}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\nocengineer\AppData\Local\Temp\scoped_dir55180_691384400}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.87, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9687c958214e408e8ef0a09f38062a64
+*** Element info: {Using=xpath, value=//*[@id="adultchoose1"]/option[2]}
+	at ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical.Bus_Review_page(Goibibo_Bus_Vertical.java:88)
+</failure>
+  </testcase>
+  <testcase name="Bus_payment_page" classname="ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical" time="0.01">
+    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=80.0.3987.87)&#10;  (Driver info: chromedriver=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 5 milliseconds&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;GI-DT-NOC11&apos;, ip: &apos;172.16.24.67&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58508}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\nocengineer\AppData\Local\Temp\scoped_dir55180_691384400}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.87, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]&#10;Session ID: 9687c958214e408e8ef0a09f38062a64&#10;*** Element info: {Using=xpath, value=//div[@id=&apos;tab_nb&apos;]}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.87)
+  (Driver info: chromedriver=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'GI-DT-NOC11', ip: '172.16.24.67', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58508}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\nocengineer\AppData\Local\Temp\scoped_dir55180_691384400}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=80.0.3987.87, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9687c958214e408e8ef0a09f38062a64
+*** Element info: {Using=xpath, value=//div[@id='tab_nb']}
+	at ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical.Bus_payment_page(Goibibo_Bus_Vertical.java:110)
+</failure>
+  </testcase>
 </testsuite>

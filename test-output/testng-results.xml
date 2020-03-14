@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51097" started-at="2020-03-14T09:11:06Z" finished-at="2020-03-14T09:11:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51097" started-at="2020-03-14T09:11:06Z" finished-at="2020-03-14T09:11:58Z">
+      <class name="ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical@402a079c]" name="beforeClass" is-config="true" duration-ms="19605" started-at="2020-03-14T09:11:06Z" finished-at="2020-03-14T09:11:26Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="icon()[pri:0, instance:ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical@402a079c]" name="icon" duration-ms="3802" started-at="2020-03-14T09:11:26Z" finished-at="2020-03-14T09:11:30Z">
+        </test-method> <!-- icon -->
+        <test-method status="PASS" signature="Bus_hompage()[pri:1, instance:ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical@402a079c]" name="Bus_hompage" duration-ms="4357" started-at="2020-03-14T09:11:30Z" finished-at="2020-03-14T09:11:34Z">
+        </test-method> <!-- Bus_hompage -->
+        <test-method status="PASS" signature="bus_details_page()[pri:2, instance:ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical@402a079c]" name="bus_details_page" duration-ms="7161" started-at="2020-03-14T09:11:34Z" finished-at="2020-03-14T09:11:41Z">
+        </test-method> <!-- bus_details_page -->
+        <test-method status="PASS" signature="Bus_Review_page()[pri:3, instance:ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical@402a079c]" name="Bus_Review_page" duration-ms="2020" started-at="2020-03-14T09:11:41Z" finished-at="2020-03-14T09:11:43Z">
+        </test-method> <!-- Bus_Review_page -->
+        <test-method status="PASS" signature="Bus_payment_page()[pri:4, instance:ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical@402a079c]" name="Bus_payment_page" duration-ms="11035" started-at="2020-03-14T09:11:43Z" finished-at="2020-03-14T09:11:54Z">
+        </test-method> <!-- Bus_payment_page -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical@402a079c]" name="afterClass" is-config="true" duration-ms="3086" started-at="2020-03-14T09:11:54Z" finished-at="2020-03-14T09:11:58Z">
+        </test-method> <!-- afterClass -->
+      </class> <!-- ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

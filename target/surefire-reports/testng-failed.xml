@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none" preserve-order="true">
+    <classes>
+      <class name="ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical">
+        <methods>
+          <include name="Bus_Review_page"/>
+          <include name="afterClass"/>
+          <include name="Bus_payment_page"/>
+          <include name="bus_details_page"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- ProjectBus.Goibibo_Bus_Vertical.Goibibo_Bus_Vertical -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

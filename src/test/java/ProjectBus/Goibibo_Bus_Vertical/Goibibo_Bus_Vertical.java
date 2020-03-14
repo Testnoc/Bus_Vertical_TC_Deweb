@@ -27,7 +27,7 @@ public class Goibibo_Bus_Vertical {
 	
 	String select_seats = "//li[1]//div[2]//div[5]//div[1]//span[2]//button[1]";
 	
-	String bording_point_selection = "//option[contains(text(),'Sagar Pur  -  05:24')]";
+	String bording_point_selection = "//*[@id=\"seatdata\"]/div[1]/div[2]/div[2]";
 	
 	String confirm_button_Seat_selection_page = "//a[@id='confirm']";
 	
@@ -76,7 +76,9 @@ public class Goibibo_Bus_Vertical {
 	  
 	  driver.findElement(By.xpath(bording_point_selection)).click();
 	  
-	  driver.findElement(By.xpath(confirm_button_Seat_selection_page)).click();
+//	  driver.findElement(By.xpath(confirm_button_Seat_selection_page)).click();
+	  
+	  driver.findElement(By.cssSelector("#confirm")).click();
 	  
 	  
   }
